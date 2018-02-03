@@ -25,8 +25,6 @@ Comes with 10 pre-defined error diffusion matrices:
 **To Do**
 
 * Serpentine error diffusion (i.e. alternating traversal direction every row)
-* Because of the way I'm dealing with the edge of the image, there's a slight leak of error diffusion from elements outside the boundary back into the actual matrix.
-  Not worth fixing at this stage.
 
 
 Installation
