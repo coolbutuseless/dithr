@@ -10,7 +10,7 @@
 #'
 #' @export
 #-----------------------------------------------------------------------------
-view_matrix <- function(m) {
+plot_matrix <- function(m) {
   plot(EBImage::as.Image(m), interpolate = FALSE)
 }
 
